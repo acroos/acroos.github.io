@@ -1,25 +1,26 @@
----
-layout: default
----
-
-<div class="header-bar">
-  <h1>austin roos</h1>
-  <h2>human</h2>
-  <br/>
-  <hr>
-  <br/>
-</div>
-
-{% if paginator.posts %}
-  <ul class="post-list">
-      {% for post in paginator.posts %}
-        <li>
-          <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-          <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
-          <p>{{ post.description }}</p>
-          <br/>
-          <hr/>
-        </li>
-      {% endfor %}
-  </ul>
-{% endif %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <pre class="white-text">austin c roos</pre>
+      </div>
+      <div class="content dark-background">
+        <pre>$ echo <span class="bold-text magenta-text">${LOCATION}</span></pre>
+        <pre><span class="white-text">Amsterdam, NL</span></pre>
+        <pre>$ echo <span class="bold-text magenta-text">${JOB_TITLE}</span></pre>
+        <pre><span class="white-text">Software Developer</span></pre>
+        <pre>$ echo <span class="bold-text magenta-text">${GITHUB}</span></pre>
+        <pre><a href="https://www.linkedin.com/in/austinroos/" class="white-text">https://www.linkedin.com/in/austinroos</a></pre>
+        <pre>$ echo <span class="bold-text magenta-text">${LINKEDIN}</span></pre>
+        <pre><a href="https://github.com/acroos" class="white-text">https://github.com/acroos</a></pre>
+        <pre>$ echo <span class="bold-text magenta-text">${EMAIL}</span></pre>
+        <pre><a href="mailto:roos.austin@gmail.com" class="white-text">roos.austin@gmail.com</a></pre>
+        <pre>$ <input class="dark-background no-border green-text" type="text" wrap autofocus></pre>
+      </div>
+    </div>
+  </body>
+</html>
