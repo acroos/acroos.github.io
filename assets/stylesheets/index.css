@@ -30,7 +30,7 @@ pre, input {
 .head {
   text-align: center;
   padding: 0 1rem;
-  width: 70%;
+  border-bottom: 1px solid white;
 }
 
 .content {
@@ -38,7 +38,7 @@ pre, input {
 }
 
 .dark-background {
-  background-color: #050505;
+  background-color: #0f0f0f;
 }
 
 .no-border {
@@ -64,6 +64,5 @@ pre, input {
 
 .head,.content {
   width: 70%;
-  border: 1px solid #111111;
 }
 
