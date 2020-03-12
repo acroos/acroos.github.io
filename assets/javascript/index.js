@@ -6,9 +6,16 @@ document.getElementById('console-line').onblur = function (event) {
 };
 
 document.getElementById('console-line').addEventListener("keyup", function(event) {
+  // only send email on enter press
   if (event.keyCode != 13) {
     return;
   }
+
+  // only send email if there is some text
+  if (document.getElementById('console-line').value == '') {
+    return;
+  }
+
   document.getElementById('email-link').click();
 });
 
