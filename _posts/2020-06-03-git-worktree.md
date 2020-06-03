@@ -4,7 +4,7 @@ title:  'git worktree (farewell git stash)'
 date:   2020-06-03
 ---
 
-it's not every day you happen upon a git command you've never seen before.  much less a command that's been around for **three years**!  well yesterday that happened with `git worktree`.
+it's not every day you happen upon a git command you've never seen before.  much less a command that's been around for **three years**!  well, yesterday that happened with `git worktree`.
 
 so... what does this thing actually do you ask?  in short, it manages freshly checked out copies of a repository.  with this command you can keep around that _dirty_ working directory and create a new branch without having to stash any changes.  magic!
 let's have a look at what this looks like in practice:
