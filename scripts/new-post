@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [[ $# -eq 0 ]]; then
+  echo "No post name given, exiting..."
+  exit 1
+fi
+
 TITLE="$@"
 TODAY=`date +"%Y-%m-%d"`
 FILENAME="${TODAY}-${TITLE// /-}.md"
