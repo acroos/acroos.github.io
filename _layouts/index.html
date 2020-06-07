@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
   {%- include index-head.html -%}
   <body>
     <div class="container">
-      <div class="head dark-background">
-        <pre class="white-text">austin c roos</pre>
-      </div>
-      <div class="content dark-background">
-        <pre>$ echo <span class="bold-text magenta-text">${LOCATION}</span></pre>
-        <pre><span class="white-text">Amsterdam, NL</span></pre>
-        <pre>$ echo <span class="bold-text magenta-text">${JOB_TITLE}</span></pre>
-        <pre><span class="white-text">Senior Software Engineer @ <a href="https://wetransfer.com" class="white-text">WeTransfer</a></span></pre>
-        <pre>$ echo <span class="bold-text magenta-text">${GITHUB}</span></pre>
-        <pre><a href="https://github.com/acroos" class="white-text" target="_blank">https://github.com/acroos</a></pre>
-        <pre>$ echo <span class="bold-text magenta-text">${LINKEDIN}</span></pre>
-        <pre><a href="https://www.linkedin.com/in/austinroos/" class="white-text" target="_blank">https://www.linkedin.com/in/austinroos</a></pre>
-        <pre>$ echo <span class="bold-text magenta-text">${EMAIL}</span></pre>
-        <pre><a href="#" class="white-text" id="email-link">roos.austin@gmail.com</a></pre>
-        <div class="tooltip-container">
-          <pre>$ <input id="console-line" class="dark-background no-border green-text" type="text" wrap autofocus></pre>
-          <span class="tooltip-text">Type your email here and hit enter!</span>
+      <div class="main">
+        <div class="header">
+          <h2>Austin Roos</h2>
+        </div>
+        <div class="body">
+          
+        </div>
+        <div class="footer">
+          <a href="https://github.com/acroos" class="footer-link" title="github">
+            <i class="fab fa-github-alt"></i>
+          </a>
+          <a href="/blog" class="footer-link" title="blog">
+            <i class="fas fa-newspaper"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/austinroos/" class="footer-link" title="linkedin">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:roos.austin@gmail.com" class="footer-link" title="email">
+            <i class="fas fa-envelope"></i>
+          </a>
         </div>
       </div>
     </div>
-    <script src="assets/javascript/index.js"></script>
   </body>
 </html>
