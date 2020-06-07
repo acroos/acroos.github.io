@@ -4,7 +4,7 @@ title:  'mind sweep and the perils of cognitive load'
 date:   2020-06-04
 ---
 
-### cognitive load
+## cognitive load
 
 Cognitive load is a term to describe the usage of mental working memory.  [Information Processing Theory](http://www.instructionaldesign.org/theories/information-processing/) states, among other things, that short-term memory can only hold 5-9 "chunks" of information at a time.  This theory has become a cornerstone of cognitive psychology, so we can probably trust it.
 
@@ -19,7 +19,7 @@ This is where the bad news comes.  If you're anything like me, you're probably w
 
 <br />
 
-### mind sweep
+## mind sweep
 
 David Allen is the creator of a system called Getting Things Done, which contains a simple task called a _mind sweep_.  The idea behind the mind sweep is to spend some time (usually about 15 minutes for me) collecting as many thoughts as possible.  By collecting things that come to mind and giving them a little attention, we can hope to become less distracted by these thoughts moving forward.
 
@@ -29,9 +29,15 @@ The giving of attention here is key; most of these things are floating around ou
 <br />
 
 
-#### lets get started
+### lets get started
 
-[A simple YouTube search](https://www.youtube.com/results?search_query=guided+mind+sweep) will give plenty of results for a guided mind sweep.  A host mentions topics that are meant to trigger thoughts for collecting.  Before jumping right in, make sure you've got some time, a relatively quiet environment, and something to write on.  Once you're ready to go, start a video and just write down everything that comes to mind.  "buy dog food", "review <TEAMMATE>'s pull reqeust", "when is <FRIEND>'s birthday?" have all been on lists of mine in the past.
+[A simple YouTube search](https://www.youtube.com/results?search_query=guided+mind+sweep) will give plenty of results for a guided mind sweep.  A host mentions topics that are meant to trigger thoughts for collecting.  Before jumping right in, make sure you've got some time, a relatively quiet environment, and something to write on.
+
+#### collect
+
+Once you're ready to go, start a video and just write down everything that comes to mind.  "buy dog food", "review <TEAMMATE>'s pull reqeust", "when is <FRIEND>'s birthday?" have all been on lists of mine in the past.
+
+#### process
 
 Once we've collected everything, the next step is to give each item a little attention.  For each item, we'll take two steps: (1) define/detail and (2) categorize.  I should note, it's also okay to look at an item and just throw it out; maybe something came to mind and now that it's been written donwn it needs no more attention.
 
@@ -56,16 +62,16 @@ That's all there is to it.  Hopefully you're feeling a lot of mental capacity an
 - **someday** (you'll do this someday... maybe...)
 - **reference** (just info to remember)
 
-### what's next?
+## what's next?
 
 Well, so far there are a few things that have helped me:
 
-#### constant collecting
+### constant collecting
 
 In the first step of the mind sweep, we collected _a ton_ of thoughts, because we hadn't given them any energy in too long.  The list doesn't have to be that large, though.  Try building a habit of collecting thoughts _immediately_ when they occur.  At your desk and think, "my cat probably needs to go to the vet soon"?  Write it down now!  This requires an always available note-taking tool.  For me, [ToDo by Microsoft](http://to-do.microsoft.com/) has been perfect.
 
 
-#### scheduled mind sweeps
+### scheduled mind sweeps
 
 Pretty self-explanatory, but sometimes you don't notice how much is floating around until its problematic.
 
