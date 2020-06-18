@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  'my favorite git commands'
+title:  'not your grandmothers git'
 date:   2020-06-18
 ---
 
-Well, let's keep it simple, eh?  Without further ado, here's a quick list of my favorite git commands:
+I'm a huge fan of git.  I nearly squeal every time I get to learn a new git command.  Well, after some time, I've fallen in love with quite a few of them; some for their usefulness and some just for how cool they are.  Without further ado, here's a quick list of git commands your grandmother won't teach you:
 
 ---
 
 ## `git add -p`
 
-Where do I even begin with this one?  If you haven't yet met the `-p` flag (short for patch) in git... get to know it.  This command has saved me from accidentally committing whitespace errors, TODOs, and so much more on which a reviewer would politely comment "is this supposed to be here?"  On top of being able to review your changes before adding them, you get a chance to slow down and do a mini review of your own code before committing it.
+I have to start off with my single most used command, right?  If you haven't yet met the `-p` flag (short for patch) in git... get to know it.  This command has saved me from accidentally committing whitespace errors, TODOs, and so much more on which a reviewer would politely comment "is this supposed to be here?"  On top of being able to confirm your changes before adding them, you get a chance to slow down and do a mini review of your own code before committing it.
 After hitting return, you'll see a chunk of code ready to be added and this input line `(1/1) Stage this hunk [y,n,q,a,d,e,?]?`.  Just press `?` and git will tell you how to proceed.
 
 ---
